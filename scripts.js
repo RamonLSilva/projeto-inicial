@@ -25,6 +25,7 @@ function alertar(event){
     if(cep.value.length < 8){
         alert('Entre com um CEP válido!');
         return
+        
     }
 
     //formatar os dados
